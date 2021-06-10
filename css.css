@@ -14,6 +14,9 @@ html{
     overflow: hidden;
 
 }
+body {
+    position: relative;
+}
 nav .fa{
     display: none;
 }
@@ -811,34 +814,7 @@ iframe{
     top: 0;
     left: 0;
     width: 100%;
-    height: 220%;
+    min-height: 100%;
     z-index: 5;
 }
-.overlays {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 300%;
-    z-index: 5;
-}
-.overlayTeam {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 270%;
-    z-index: 5;
-}
-@media (max-width:700px) {
-    .overlay{
-        height: 320%;
-    }
-    .overlays{
-        height: 780%;
-    }
-    .overlayTeam{
-        height: 380%;
-    }
 
-}
