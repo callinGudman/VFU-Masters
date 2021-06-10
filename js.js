@@ -9,7 +9,7 @@ function hideMenu(){
 
 //Video
 const head = document.querySelectorAll('.head-col,.bottomSecond, .bottomFirst, .bottomAlone,.videoMob,.videoCv,.videoCvBB,.videoCvB');
-const stopVideo = document.querySelector('.stop-btn');
+const stopVideo = document.querySelector('.overlay,.overlays,.overlayTeam');
 const testing = document.querySelector('.testing');
 const openVideo = function (){
     testing.classList.remove('hidden');
