@@ -274,6 +274,7 @@ h1{
     }
     .head-col{
         display: block;
+        margin-top: 4rem;
     }
     .shapki{
         min-height: 100vh;
@@ -366,6 +367,7 @@ iframe{
 }
 .programTeam h1{
     padding-top: 5rem;
+    margin-top: 7rem;
 }
 .izbiratelni-col img{
     width: 33rem;
@@ -448,8 +450,12 @@ iframe{
     .izbiratelni{
         display: block;
         justify-content: space-around;
-        margin-top: 3%;
+        margin-top: 4rem;
         margin-left: 2rem;
+    }
+    .izbiratelni-col{
+        margin-top: 3rem;
+
     }
 
 }
@@ -618,14 +624,21 @@ iframe{
     background-color:deepskyblue;
     margin-top:10rem;
 }
-.footer h4 {
+.footerHome{
+    width:100%;
+    text-align:center;
+    padding:3rem 0;
+    background-color:deepskyblue;
+    margin-top:0rem;
+}
+.footer h4,.footerHome h4 {
     font-size:1.6rem;
     margin-bottom:2.5rem;
     margin-top:2rem;
     font-weight:600;
 
 }
-.footer p{
+.footer p,.footerHome p{
     font-size:1.4rem;
     font-weight:300;
     width: 80%;
@@ -643,6 +656,8 @@ iframe{
 
 }
 /*------PRIEM-----*/
+
+
 .priem p{
     font-size: 1.7rem;
     width: 60%;
@@ -807,6 +822,9 @@ iframe{
         left: 0%;
         transform: translate( 0%);
 
+    }
+    .footerHome{
+        margin-top: 10rem;
     }
 
 }
