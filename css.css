@@ -612,9 +612,13 @@ iframe{
     .teamPic{
         display: grid;
 
+
     }
     .teamCV{
         display: none;
+    }
+    .teamPic-col{
+        margin-top: 3rem;
     }
     .videoMob{
         display:inline-block;
